@@ -1,0 +1,48 @@
+@import "./src/variables";
+
+.product-card {
+  max-width: 800px;
+  min-height: 300px;
+
+  .product-image {
+    margin: 10px;
+    max-width: 280px;
+    height: 280px;
+    background-color: #ffffff;
+    img {
+      max-width: 280px;
+      max-height: 280px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .card-body {
+    h3 {
+      font-size: 18px;
+      line-height: 23px;
+      color: #111c85;
+      font-family: $font-crimson;
+    }
+
+    .product-price {
+      margin-top: 8px;
+      p {
+        font-family: $font-work;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111c85;
+
+      }
+    }
+
+    .product-description {
+      margin-top: 8px;
+      font-family: $font-lato;
+      font-size: 16px;
+      line-height: 28px;
+      color: #9295aa;
+      margin-bottom: 0;
+    }
+  }
+}

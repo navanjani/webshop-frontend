@@ -1,0 +1,19 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&display=swap");
+
+body {
+  margin: 0;
+  font-family: $font-lato;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
